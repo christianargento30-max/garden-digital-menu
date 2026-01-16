@@ -1,0 +1,17 @@
+[
+  {"name":"Botanic Spritz","category":"signature","description":"Gin botanico, prosecco, lime, rosmarino.","price":"€10","icon":"img/icons/spritz.svg"},
+  {"name":"Green Negroni","category":"signature","description":"Gin alle erbe, bitter, vermouth dry.","price":"€12","icon":"img/icons/rocks.svg"},
+  {"name":"Garden Martini","category":"signature","description":"Vodka, vermouth, cetriolo, salvia.","price":"€11","icon":"img/icons/martini.svg"},
+  {"name":"Pear & Thyme Sour","category":"signature","description":"Pera, limone, timo, albume (opz).","price":"€12","icon":"img/icons/coupe.svg"},
+
+  {"name":"Classic Mojito","category":"classics","description":"Rum, lime, menta, soda.","price":"€9","icon":"img/icons/highball.svg"},
+  {"name":"Moscow Mule","category":"classics","description":"Vodka, ginger beer, lime.","price":"€9","icon":"img/icons/mug.svg"},
+  {"name":"Americano","category":"classics","description":"Bitter, vermouth rosso, soda.","price":"€8","icon":"img/icons/rocks.svg"},
+  {"name":"French 75","category":"classics","description":"Gin, limone, zucchero, bollicine.","price":"€11","icon":"img/icons/flute.svg"},
+
+  {"name":"Basil Smash","category":"seasonal","description":"Gin, basilico, limone.","price":"€10","icon":"img/icons/highball.svg"},
+  {"name":"Rose Garden","category":"seasonal","description":"Vodka, rosa, limone, soda.","price":"€10","icon":"img/icons/spritz.svg"},
+  {"name":"Tiki Garden","category":"seasonal","description":"Rum, ananas, lime, spezie.","price":"€12","icon":"img/icons/tiki.svg"},
+  {"name":"Herbal Collins","category":"seasonal","description":"Gin, limone, sciroppo alle erbe, soda.","price":"€9","icon":"img/icons/highball.svg"}
+]
+

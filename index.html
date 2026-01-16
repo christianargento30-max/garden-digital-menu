@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Garden Cocktails</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <img src="img/floral-corner.png" class="corner corner-top-left" alt="">
+  <img src="img/floral-corner.png" class="corner corner-bottom-right" alt="">
+ <header class="hero">
+  <div class="heroWrap">
+    <div class="logoBox">
+    <img src="img/garden-bar-logo.png" alt="Garden Bar" class="logo-garden">
+    </div>
+    <div class="heroText">
+    <p class="kicker">Garden Menu</p>
+    <h1>Signature Cocktails</h1>
+    <p class="sub">Scansiona, scegli, brinda.</p>
+  </div>
+  </div>
+</header>
+
+  <nav class="filters" aria-label="Categorie">
+    <button class="chip is-active" data-filter="all">Tutti</button>
+    <button class="chip" data-filter="signature">Signature</button>
+    <button class="chip" data-filter="classics">Classics</button>
+    <button class="chip" data-filter="seasonal">Seasonal</button>
+  </nav>
+
+  <main class="wrap">
+    <section class="grid" id="grid" aria-label="Lista cocktail"></section>
+  </main>
+
+  <!-- MODAL -->
+  <dialog class="modal" id="modal">
+    <button class="modal__close" id="closeBtn" aria-label="Chiudi">×</button>
+    <div class="modal__content">
+      <img id="mImg" alt="" />
+      <div>
+        <h2 id="mName"></h2>
+        <p class="meta" id="mCat"></p>
+        <p id="mDesc"></p>
+        <p class="price" id="mPrice"></p>
+      </div>
+    </div>
+  </dialog>
+
+  <footer class="footer">
+    <button class="top" id="topBtn">Torna su</button>
+    <p class="tiny">Menu digitale • mobile-first</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
